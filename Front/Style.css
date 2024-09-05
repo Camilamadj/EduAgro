@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #7aac41;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.webinars {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.webinars h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.webinar-carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.webinar {
+    text-align: center;
+}
+
+.webinar img {
+    width: 100px;
+    height: 100px;
+}
+
+.certificates {
+    padding: 50px 20px;
+    background-image: url('background-certificates.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.certificates-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonios {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.testimonios-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonio {
+    text-align: center;
+}
+
+.testimonio img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    padding: 20px;
+    background-color: #8bc34a;
+    text-align: center;
+    color: white;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
